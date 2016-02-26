@@ -3,17 +3,24 @@ package edu.saintjoe.cs.brianc.problemtwo;
 public class ProblemTwo {
 	int first;
 	int second;
+	int third;
 	String one = "Here we go!!";
 	String two;
 	
 	public int getFirst() {
 		return first;
 	}
+	public int getThird() {
+		return third;
+	}
 	
 	public void setFirst(int newValue) {
 		first = newValue;
 	}
+	public void setThird(int newValue) {
+		first = newValue;
 	
+	}
 	public String gettwo() {
 		return two;
 	}
